@@ -52,6 +52,33 @@ On Mac computers the R installation path may look like:  `/usr/local/bin/R`.
 You may want to set your R to use **Radian**. This will enable color-code-highlighting in your terminal window. 
 
 
+---
+### **VS Code Master Cheat Sheet: SAS, R, & Copilot**
+
+| Action | Windows / Linux | macOS |
+| :--- | :--- | :--- |
+| **The Essentials** | | |
+| Open Command Palette | `Ctrl` + `Shift` + `P` | `Cmd` + `Shift` + `P` |
+| Open Settings (UI) | `Ctrl` + `,` | `Cmd` + `,` |
+| Open Integrated Terminal | `Ctrl` + `` ` `` | `Ctrl` + `` ` `` |
+| Toggle Sidebar Visibility | `Ctrl` + `B` | `Cmd` + `B` |
+| **R Programming** | | |
+| Run Selected Line/Code | `Ctrl` + `Enter` | `Cmd` + `Enter` |
+| Insert Pipe Operator (`|>`) | `Ctrl` + `Shift` + `M` | `Cmd` + `Shift` + `M` |
+| Insert Assignment (`<-`) | `Alt` + `-` | `Option` + `-` |
+| **SAS Programming** | | |
+| Run Selected SAS Code | `F3` (or `Alt` + `S`) | `F3` (or `Option` + `S`) |
+| Clear SAS Log | `Ctrl` + `L` | `Cmd` + `L` |
+| **GitHub Copilot** | | |
+| Open Copilot Inline Chat | `Ctrl` + `I` | `Cmd` + `I` |
+| Open Copilot Chat Sidebar | `Ctrl` + `Alt` + `I` | `Cmd` + `Option` + `I` |
+| Accept Ghost Text (Suggestion) | `Tab` | `Tab` |
+| Next/Prev Suggestion | `Alt` + `[` or `]` | `Option` + `[` or `]` |
+| **Git & Version Control** | | |
+| Open Source Control Tab | `Ctrl` + `Shift` + `G` | `Ctrl` + `Shift` + `G` |
+| **Markdown & Documentation**| | |
+| Open Preview to the Side | `Ctrl` + `K` then `V` | `Cmd` + `K` then `V` |
+| Toggle Full Preview | `Ctrl` + `Shift` + `V` | `Cmd` + `Shift` + `V` |
 
 ---
 Usage tips:
