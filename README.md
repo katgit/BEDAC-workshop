@@ -6,6 +6,7 @@
 
 - **R** runtime: Install from CRAN.
 - **SAS** access (for execution): SAS 9 or SAS Viya. Without a SAS server you still get syntax highlighting and linting for SAS.
+- **GitHub Copilot** subscription.
 
 
 ## SAS Extension Setup
@@ -51,6 +52,23 @@ On Mac computers the R installation path may look like:  `/usr/local/bin/R`.
 **Optional**: 
 You may want to set your R to use **Radian**. This will enable color-code-highlighting in your terminal window. 
 
+---
+### Setting up the GitHub Copilot
+
+1. Go to the Extensions view by clicking the square icon in the Activity Bar on the side, or by pressing `Ctrl+Shift+X`.
+2. Search for *"GitHub Copilot"* in the search bar.
+3. Select the official GitHub Copilot extension (and optionally GitHub Copilot Chat).
+4. Click the Install button for the selected extensions. 
+5. Once installed, the extension will prompt you to sign in to your GitHub account to activate it:
+  - A pop-up may appear automatically asking you to Sign in to use Copilot. Select this option.
+  - Alternatively, you can click the Copilot icon in the status bar at the bottom of the VS Code window (it might have a sign-in prompt) and select Set up Copilot or Sign in.
+  - You can also open the Command Palette (Ctrl+Shift+P) and type "GitHub: Sign In" to manage your accounts. 
+6. Authorize VS Code:
+   - A browser window will open, redirecting you to a GitHub authentication page.
+   - Sign in with your GitHub credentials if prompted.
+   - Click Authorize Visual Studio Code (or Continue and then Allow) to grant the necessary permissions to the GitHub Copilot extension.
+   - You may see a prompt in the browser asking to open the link in Visual Studio Code. Click Open Visual Studio Code (or a similar confirmation) to return to the application.
+   - Back in VS Code, a final pop-up may appear asking to allow the extension to open a URI. Click Open
 ---
 
 ### Setting Your "Personal Agent" 
