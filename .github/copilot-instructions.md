@@ -190,6 +190,7 @@ QUIT;
   ```
 
 ### Workflow Guidelines
+- Always create a verbose and descriptive commit messages that reflect the changes made
 - Pull/fetch regularly to stay up-to-date with remote changes
 - Create feature branches for new work (`git checkout -b feature/feature-name`)
 - Review changes before committing (`git diff`, `git status`)
