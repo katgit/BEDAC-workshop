@@ -81,8 +81,6 @@ If you want these rules (or some of these rules) across all projects:
 | Toggle Sidebar Visibility | `Ctrl` + `B` | `Cmd` + `B` |
 | **R Programming** | | |
 | Run Selected Line/Code | `Ctrl` + `Enter` | `Cmd` + `Enter` |
-| Insert Pipe Operator (`|>`) | `Ctrl` + `Shift` + `M` | `Cmd` + `Shift` + `M` |
-| Insert Assignment (`<-`) | `Alt` + `-` | `Option` + `-` |
 | **SAS Programming** | | |
 | Run Selected SAS Code | `F3` (or `Alt` + `S`) | `F3` (or `Option` + `S`) |
 | Clear SAS Log | `Ctrl` + `L` | `Cmd` + `L` |
@@ -98,50 +96,7 @@ If you want these rules (or some of these rules) across all projects:
 | Toggle Full Preview | `Ctrl` + `Shift` + `V` | `Cmd` + `Shift` + `V` |
 
 ---
-Usage tips:
-- Use the Command Palette: R: Create R Terminal to start an R session.
-- Select lines and run with Run Selection/Line (provided by the R extension).
-- Work with R Markdown; the extension supports common workflows.
-
----
-
-### SAS Setup in VS Code
-
-1. Install the SASjs extension (sasjs.sasjs-for-vscode) from the Extensions view.
-2. Out of the box: SAS syntax highlighting, linting, and snippets.
-3. To execute SAS code, configure a SAS target (requires SAS server):
-
-```bash
-# Install SASjs CLI globally
-npm install -g @sasjs/cli
-
-# Create a SAS target (follow prompts to configure server details)
-sasjs add
-```
-
-4. In VS Code, use the SASjs commands (Command Palette) to run the current file or selection against your configured target.
-
-Notes:
-- If you only need to edit SAS scripts locally, the SASjs extension works without server setup (syntax + linting).
-- For execution, you must have network access and credentials to a SAS environment (SAS 9 or SAS Viya).
-
----
-
-### Troubleshooting
-
-- R not found: verify Homebrew path (`/opt/homebrew/bin`) is in your PATH and restart VS Code.
-- No IntelliSense in R: confirm `languageserver` is installed and the R extension is enabled.
-- SAS execution errors: check your SASjs target configuration and server permissions; try `sasjs health`.
-
----
-
-### Summary
-
-- Install the extensions, set the R terminal path, and (optionally) configure SASjs to run SAS code. You’re ready to process R and SAS scripts directly in VS Code on macOS.
-
 
 ### Tips and Tricks
 
 1. To view a *Markdown* file in the VS Code, click the **"Open Preview"** button: ![Preview Markdown](Images/PreviewMarkdown.png)
-
-   
