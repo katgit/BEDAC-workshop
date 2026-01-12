@@ -51,6 +51,24 @@ On Mac computers the R installation path may look like:  `/usr/local/bin/R`.
 **Optional**: 
 You may want to set your R to use **Radian**. This will enable color-code-highlighting in your terminal window. 
 
+---
+
+### Setting Your "Personal Agent" 
+In VS Code, your "Personal Agent" is powered by Custom Instructions. This ensures Copilot understands your specific coding standards (e.g., "Use Tidyverse for R" or "Always include a LIBNAME statement in SAS").
+
+**Setup**:  
+
+1. Open Settings -> Settings and in the search bar, type: "GitHub Copilot Instruction File". Make sure that the corresponding checkbox (*Controls whether code instructions from `.github/copilot-instructions.md`*) is checked.
+2. Create the `.github` sub folder in the root of your project folder.
+3. Inside `.github`, create a file named copilot-instructions.md.
+4. Use natural language, add your rules. For example:  
+*"When writing R, prefer the pipe operator `|>` and the dplyr package. For SAS, always use upper-case for PROC and DATA steps and include comments for every DATA step."*
+
+**Global Instructions**:   
+If you want these rules (or some of these rules) across all projects:
+1.  Go to *Command Palette* and search for `Chat: New Instructions File` and select it. 
+2.  Select "User Profile" or "User Data" in the drop-down menu when prompted to create the file in your global settings folder.
+3.  Give file a name: e.g. `global-copilot-rules.md` and add your instructions.
 
 ---
 ### **VS Code Master Cheat Sheet: SAS, R, & Copilot**
@@ -72,7 +90,7 @@ You may want to set your R to use **Radian**. This will enable color-code-highli
 | **GitHub Copilot** | | |
 | Open Copilot Inline Chat | `Ctrl` + `I` | `Cmd` + `I` |
 | Open Copilot Chat Sidebar | `Ctrl` + `Alt` + `I` | `Cmd` + `Option` + `I` |
-| Accept Ghost Text (Suggestion) | `Tab` | `Tab` |
+| Accept Ghost Text (Suggestion) | `Tab` | `Tab` **|
 | Next/Prev Suggestion | `Alt` + `[` or `]` | `Option` + `[` or `]` |
 | **Git & Version Control** | | |
 | Open Source Control Tab | `Ctrl` + `Shift` + `G` | `Ctrl` + `Shift` + `G` |
