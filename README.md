@@ -68,10 +68,9 @@ In VS Code, your "Personal Agent" is powered by Custom Instructions. This ensure
 If you want these rules (or some of these rules) across all projects:
 1.  Go to *Command Palette* and search for `Chat: New Instructions File` and select it. 
 2.  Select "User Profile" or "User Data" in the drop-down menu when prompted to create the file in your global settings folder.
-3.  Give file a name: e.g. `global-copilot-rules.md` and add your instructions.
 
 ---
-### **VS Code Master Cheat Sheet: SAS, R, & Copilot**
+### **VS Code Cheat Sheet: SAS, R, & Copilot**
 
 | Action | Windows / Linux | macOS |
 | :--- | :--- | :--- |
